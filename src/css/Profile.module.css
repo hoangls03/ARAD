@@ -1,0 +1,44 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userInfo h1, .userInfo h2, .userInfo h3 {
+    margin: 0.2rem;
+}
+
+.profilePicture {
+    width: 200px;
+    border-radius: 100%;
+}
+
+.userArticles {
+    display: flex;
+    flex-direction: row;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem 1rem 2rem;
+    align-items: center;
+}
+
+.preview {
+    display: flex;
+}
+
+.preview article {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0.5rem;
+    padding: 1rem;
+}

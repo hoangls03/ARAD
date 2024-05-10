@@ -1,0 +1,35 @@
+.introduction {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 125px;
+}
+.image-introduction {
+    float: left;
+    border-right: solid #000000 3px;
+    margin-right: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.text-introduction {
+    font-size: 30px;
+    color: #000000;
+    font-weight: bolder;
+}
+.text-introduction p::first-letter {
+    color: #6e6e6e;
+    text-shadow: 3px 1px black;
+    font-size: 40px;
+    font-weight: bold;
+}
+.text-introduction p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.75;
+}
+.h1 {
+    padding: 0;
+    margin: 0;
+}
+.image-introduction {
+    height: 125px; /* whenever change the height of image remember to change the height of introduction  */
+}

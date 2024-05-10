@@ -1,0 +1,13 @@
+.Placeholder_Dropdown {
+    font-size: 22px;
+    border-radius: 20px;
+    border: 2px solid black;
+    height: 50px;
+}
+.filter_img {
+    width: 30px;
+}
+.filter_height {
+    display: inline-block;
+    vertical-align: middle;
+}

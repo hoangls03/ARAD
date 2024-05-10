@@ -1,0 +1,20 @@
+.btn-group a { /* to change the space between button group and the left of the page change in first button */
+    background-color: black; 
+    color: white;
+    float: right;
+    margin-top: 3%;
+    padding: 0.5%;
+    font-weight: bolder;
+    font-size: 22px;
+    margin-right: 2%;
+    width: 150px; 
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+}
+.btn-group a:hover {
+    background-color: green;
+}
+.btn-group .first_btn {
+    margin-right: 4%;
+}

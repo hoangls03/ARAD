@@ -1,0 +1,63 @@
+.uploadArticle {
+
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 10rem;
+
+}
+
+label {
+    padding: 1rem 0;
+}
+
+.addReview {
+    padding: 2rem 0 1rem;
+}
+
+.addReview label {
+    padding-left: 1rem;
+}
+
+.text_input  {
+    width: 20%;
+    padding: 0.5rem;
+}
+
+textarea {
+    height: 120px;
+    padding: 0.5rem;
+}
+
+.submitBtn {
+    width: 30%;
+    padding: 1rem;
+    margin: 2rem 0;
+    background-color: black;
+    color: white;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.chapters {
+    display: none;
+}
+
+.displayChapters {
+    display: flex;
+    flex-direction: column;
+}
+
+.topics {
+    display: none;
+}
+
+.displayTopics {
+    display: flex;
+    flex-direction: column;
+}
+
+.review {
+    display: none;
+    flex-direction: column;
+}
+

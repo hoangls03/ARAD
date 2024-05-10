@@ -1,0 +1,7 @@
+.mainOne {
+  min-height: 520px; /* this is the height of the main between header and footer*/
+}
+*{
+  margin: 0;
+  padding: 0;
+}

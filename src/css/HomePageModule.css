@@ -1,0 +1,117 @@
+.searchbar{
+    border-radius: 19px;
+    width: auto;
+    padding: 15px;
+    border: 2px solid black;
+    width: 300px;
+}
+
+.searchbar-form{
+    
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.searchbar::placeholder{
+    font-size: 22px;
+}
+
+.search-button {
+    background: none;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+.search-button img {
+   width: 30px;
+}
+.searchbar_home {
+    float: left;
+}
+.Dropdown_Home {
+    padding-top: 20px;
+    padding-right: 15px;
+    float: right;
+    font-size: 32px;
+}
+.bar_home {
+    display: block;
+}
+.articles_home {
+    display: block;
+    position: relative;
+}
+.space_between_home {
+    clear: both;
+}
+.mainOne {
+    min-height: 520px;
+    width: 100%;
+    border-radius: 10px; 
+  }
+  
+  .App {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .main {
+    padding-bottom: 100px;
+  }
+  
+  
+  .article {
+    margin: 15px;
+    display: flex;
+    border: 2px solid black;
+    position: relative;
+    padding: 1px;
+    border-radius: 10px; 
+  }
+  
+  .red {
+    float: left;
+    width: 70%;
+  }
+  
+  .black {
+    float: right;
+    width: 20%;
+    border-radius: 10px; 
+    border: 2px solid black;
+    padding-right: 10px;
+    height: 144px;
+    position: absolute;
+    left: 80%;
+    top: 30%;
+    margin: -44px 0 0 -50px;
+  }
+  
+  .font {
+    font-size: large;
+    margin: 10px;
+  }
+  
+  .aaa {
+    display: inline;
+    float: left;
+  }
+  
+  .atext {
+    float: right;
+    padding: 5px;
+    background-color: cornflowerblue;
+    display: inline;
+    border-radius: 10px; 
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
